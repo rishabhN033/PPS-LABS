@@ -10,7 +10,7 @@ int mat1[rows][cols], mat2[rows][cols], result[rows][cols];
 printf("Enter elements of the first matrix;\n");
 for (int i = 0; i < rows; i++) {
 
-RESULT:
+
 for (int j = 0; j < cols; j++) {
 printf("element [%d][%d]: ", i, j);
 scanf("%d", &mat1[i][j]);
